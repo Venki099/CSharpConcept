@@ -36,6 +36,9 @@ namespace CSharpConcept
             Console.WriteLine("Pre Increment:{0}", ++i);
             Console.WriteLine("Post Increment:{0}", i++);
 
+            int x = 35;
+            Console.WriteLine(x);
+
         }
     }
 }

@@ -33,8 +33,11 @@ namespace CSharpConcept
             //Clone
             string str6 =(String) str5.Clone();
             Console.WriteLine(str6);
+            //Compare To
             Console.WriteLine(str5.CompareTo(str4));
             Console.WriteLine(str5.CompareTo(str7));
+           Console.WriteLine(string.CompareOrdinal(str7, str5));
+
 
 
         }

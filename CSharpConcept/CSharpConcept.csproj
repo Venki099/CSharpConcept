@@ -5,7 +5,11 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpConcept.methosofStrings</StartupObject>
+    <StartupObject>CSharpConcept.CustomException</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="2darrayaddtion.cs" />
+  </ItemGroup>
 
 </Project>
